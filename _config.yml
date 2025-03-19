@@ -1,0 +1,23 @@
+title: CogJS Documentation
+description: Documentation for the CogJS utilities and components
+theme: jekyll-theme-cayman
+
+# GitHub Pages settings
+baseurl: "/cogjs"  # the subpath of your site, e.g. /blog
+url: ""  # the base hostname & protocol, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude files from being published
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src/

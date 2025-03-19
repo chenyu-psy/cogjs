@@ -1,0 +1,32 @@
+{
+  "name": "cogjs",
+  "version": "0.0.1",
+  "description": "A JavaScript package for programming experiments in cognitive psychology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyu-psy/cogjs.git"
+  },
+  "author": "Chenyu Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenyu-psy/cogjs/issues"
+  },
+  "homepage": "https://github.com/chenyu-psy/cogjs#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.13.10",
+    "@types/sweetalert2": "^9.17.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  },
+  "dependencies": {
+    "jspsych": "^8.2.1",
+    "sweetalert2": "^11.17.2"
+  }
+}
