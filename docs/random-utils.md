@@ -3,7 +3,7 @@ layout: default
 title: Random Utility Functions
 ---
 
-[Home](./index.md) | [Random Utilities](./random-utils.md) | [Other Docs](./other-docs.md)
+[Home]({{ site.baseurl }}/docs/index.html) | [Random Utilities]({{ site.baseurl }}/docs/random-utils.html) | [Other Docs]({{ site.baseurl }}/docs/other-docs.html)
 
 # Random Utility Functions
 
