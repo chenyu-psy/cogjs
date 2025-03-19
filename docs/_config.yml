@@ -1,6 +1,6 @@
 title: CogJS Documentation
 description: Documentation for the CogJS cognitive science JavaScript library
-theme: jekyll-theme-minimal
+theme: just-the-docs
 
 # GitHub Pages configuration
 baseurl: "/cogjs"
@@ -11,6 +11,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Just the Docs theme settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "CogJS on GitHub":
+    - "https://github.com/chenyu-psy/cogjs"
 
 # Exclude files from being published
 exclude:
