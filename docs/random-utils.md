@@ -1,10 +1,14 @@
+---
+layout: default
+title: Random Utility Functions
+---
+
 # Random Utility Functions
 
 This document provides an overview and examples of the random utility functions available in the `random.ts` module.
 
 **Navigation**: 
-- [Back to Documentation Index](./README.md)
-- [API Reference](./api-reference.md) (if available)
+- [Back to Documentation Index]({{ site.baseurl }}/docs/)
 - [GitHub Repository](https://github.com/chenyu-psy/cogjs)
 
 ## Table of Contents

@@ -4,7 +4,7 @@ This directory contains documentation for the CogJS library.
 
 ## Available Documentation
 
-- [Random Utility Functions](./random-utils.md) - Documentation for random number generation utilities
+- [Random Utility Functions](random-utils.md) - Documentation for random number generation utilities
 
 ## How to Access Your Documentation
 
@@ -32,3 +32,19 @@ To make this documentation available as a website:
 5. Click "Save"
 
 Once configured, your documentation will be available at: https://chenyu-psy.github.io/cogjs/
+
+## GitHub Pages Troubleshooting
+
+If you're seeing a 404 error when trying to access the GitHub Pages site, make sure:
+
+1. GitHub Pages is enabled in repository settings 
+   - Go to your repository settings on GitHub
+   - Scroll down to the "GitHub Pages" section
+   - Under "Source", select the branch containing your documentation (usually "main")
+   - Select the root folder (not "/docs") as the source
+   - Click "Save"
+
+2. Give GitHub a few minutes to build and deploy your site
+
+3. Make sure you're using the correct URL format:
+   - https://chenyu-psy.github.io/cogjs/

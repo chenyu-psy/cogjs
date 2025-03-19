@@ -1,10 +1,10 @@
 title: CogJS Documentation
-description: Documentation for the CogJS utilities and components
-theme: jekyll-theme-cayman
+description: Documentation for the CogJS cognitive science JavaScript library
+theme: jekyll-theme-minimal
 
-# GitHub Pages settings
-baseurl: "/cogjs"  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol, e.g. http://example.com
+# GitHub Pages configuration
+baseurl: "/cogjs"
+url: "https://chenyu-psy.github.io"
 
 # Build settings
 markdown: kramdown
@@ -21,3 +21,7 @@ exclude:
   - package-lock.json
   - README.md
   - src/
+
+# Navigation settings
+include:
+  - docs
