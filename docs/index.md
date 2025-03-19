@@ -32,3 +32,23 @@ npm install cogjs
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+Once you have an index file in /docs, GitHub Pages will find the source folder.
+
+### [index.md](file:///Users/chenyu/GitHub/cogjs/docs/index.md)
+
+Add an index file with basic content:
+
+```markdown
+---
+layout: default
+title: CogJS Documentation
+---
+
+# CogJS Documentation
+
+Welcome to the documentation for CogJS.
+
+- [Random Utilities]({{ site.baseurl }}/docs/random-utils.html)
+- [Other Docs]({{ site.baseurl }}/docs/other-docs.html)
+```
