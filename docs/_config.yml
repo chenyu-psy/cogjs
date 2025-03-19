@@ -1,0 +1,48 @@
+title: CogJS Documentation
+description: Documentation for the CogJS cognitive science JavaScript library
+theme: jekyll-theme-minimal
+
+# GitHub Pages configuration
+baseurl: "/cogjs"
+url: "https://chenyu-psy.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude files from being published
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src/
+
+# Navigation settings
+include:
+  - docs
+
+# Collections for documentation
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Default settings for different types of content
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+      is_document: true
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+      is_document: true
